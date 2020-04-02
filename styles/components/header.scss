@@ -1,0 +1,23 @@
+
+header {
+  background-color: #0e0e0e;
+  .menu {
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          padding: 5px 0;
+          color: #fff;
+          text-decoration: none;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+
+

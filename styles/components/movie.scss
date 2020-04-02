@@ -1,0 +1,41 @@
+.movie {
+  position: relative;
+  background-color: #101010;
+  margin-bottom: 20px;
+  .movie-image {
+    img {
+      height: 340px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .movie-description {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    .title {
+      font-size: 15px;
+      display: block;
+      line-height: 17px;
+      height: 30px;
+    }
+    .year {
+      display: block;
+      font-weight: 600;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .rating {
+      display: block;
+    }
+    .favorite-button{
+      position: absolute;
+      right: 20px;
+      bottom:20px;
+      cursor: pointer;
+    }
+  }
+}
