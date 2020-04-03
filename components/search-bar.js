@@ -1,7 +1,7 @@
 import React from 'react'
 import store from "../stores"
 import "../styles/components/search-bar.scss"
-
+import Router from 'next/router'
 export default class SearchBar extends React.Component {
 
 
@@ -22,6 +22,7 @@ export default class SearchBar extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         const {s, type, y} = this.state;
+        Router.push('/');
         store.onSearch(s, type, y)
     }
 
